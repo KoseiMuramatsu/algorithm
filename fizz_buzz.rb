@@ -9,3 +9,12 @@ for num in 1..100 do
     puts num
   end
 end
+
+
+n, m, k = gets.chomp.map(&)
+
+n.times do
+  m.times do
+    
+  end
+end
