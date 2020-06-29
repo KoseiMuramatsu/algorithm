@@ -1,23 +1,24 @@
-s = gets.chomp
-t = gets.chomp
+S = gets.chomp
+T = gets.chomp
 
-ans = 0
 
-for a in 0..(s.length - 1) do
-  if s[a] != t[a]
-    ans += 1
-  end
-end
+# 回答1
 
-puts ans
+# ans = 0
 
-# 別回答
+# for a in 0..(S.length - 1) do
+#   if S[a] != T[a]
+#     ans += 1
+#   end
+# end
 
-S = gets.chomp.split("")
-T = gets.chomp.split("")
+# puts ans
+
+# 回答2
+
 ans = 0
 S.size.times do |i|
-    ans += 1 if S[i] != T[i]
+  ans += 1 if S[i] != T[i]
 end
 
 puts ans
