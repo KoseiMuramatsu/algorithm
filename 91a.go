@@ -11,6 +11,3 @@ func main() {
 		fmt.Println("No")
 	}
 }
-
-// 6/3 ◯
-

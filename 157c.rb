@@ -28,5 +28,3 @@ if n >= 2 && ans[0] == 0
 end
 
 ans.each{|a| print a ? a : 0}
-
-# 難しかった…

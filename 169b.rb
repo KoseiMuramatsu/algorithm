@@ -15,4 +15,3 @@ else
   end
   puts ans
 end
-
