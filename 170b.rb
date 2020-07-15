@@ -1,11 +1,10 @@
 x, y = gets.chomp.split.map(&:to_i)
 
-ans = 'No'
-for a in 0..x do
-  b = x - a
-  if (a * 2) + (b * 4) == y
+ans = "No"
+
+for i in 0..x
+  if (x - i) * 2 + i * 4 == y
     ans = 'Yes'
-    break
   end
 end
 
