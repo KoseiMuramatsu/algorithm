@@ -13,7 +13,6 @@ end
 
 puts ans
 
-
 # 面白い回答
 h = gets.chomp.to_i
 a = gets.chomp.split.map(&:to_i)
